@@ -3,11 +3,13 @@
 I am playing with Machine Learning models to predict the used car price.
 
 The project has five section:
-1) Clean dataset
-2) EDA
-3) Prepare data for models
-4) Building Models (Linear Regression and RandomForest Regression)
-5) Conclusions.
+1) Prepare data
+2) Exploratory Data Analysis
+3) Encode data and standardize
+4) PCA
+5) Linear Regression 
+6) RandomForest Regression
+7) Conclusion
 
 Please feel free to go to the Jupyterbook and take a look:)
 
