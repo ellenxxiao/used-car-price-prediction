@@ -6,7 +6,7 @@ The project has five section:
 1) Clean dataset
 2) EDA
 3) Prepare data for models
-4) Building Models
+4) Building Models (Linear Regression and RandomForest Regression)
 5) Conclusions.
 
 Please feel free to go to the Jupyterbook and take a look:)
