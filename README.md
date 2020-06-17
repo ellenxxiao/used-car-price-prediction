@@ -11,6 +11,6 @@ The project has five section:
 6) RandomForest Regression
 7) Conclusion
 
-Please feel free to go to the Jupyterbook and take a look:)
+Testing Accuracy: 87.7%
 
 [Data source](https://www.kaggle.com/orgesleka/used-cars-database)
