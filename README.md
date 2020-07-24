@@ -19,7 +19,7 @@ The data source is downloaded <a href="https://www.kaggle.com/orgesleka/used-car
 
 ## Data_Preprocessing
 <a href="https://github.com/ellenxxiao/used-car-price-prediction/blob/master/Data%20Preprocessing.py" target="_blank">Data Preprocessing</a> contains 4 steps:
-1. Remove outliers (1.5 IQR Rules)
+1. Remove outliers (1.5 IQR Rules) 
 -Example
 ```shell
 lower_bound = df['yearOfRegistration'].quantile(.25)-(df['yearOfRegistration'].quantile(.75)-df['yearOfRegistration'].quantile(.25))*1.5
@@ -35,13 +35,13 @@ lower_bound = df['price'].quantile(.25)-(df['price'].quantile(.75)-df['price'].q
 upper_bound = df['price'].quantile(.75)+(df['price'].quantile(.75)-df['price'].quantile(.25))*1.5
 ```
 2. Drop unnecessary columns
-3. Fill missing values 
+3. Fill missing values  
 -Example
 ```shell
 df_update['fuelType'].fillna(value='not-declared', inplace=True)
 df_update['gearbox'].fillna(value='not-declared', inplace=True)
 ```
-4. Create new features
+4. Create new features  
 -Example
 ```shell
 df_update['daysOnline'] = pd.to_datetime(df_update['lastSeen'])-pd.to_datetime(df_update['dateCreated'])
@@ -51,6 +51,7 @@ df_update['daysOnline'] = df_update['daysOnline'].dt.days+1
 Code is <a href="https://github.com/ellenxxiao/used-car-price-prediction/blob/master/EDA.py" target="_blank">here</a>
 1. The distribution of features  
 -Example
+
 ![Capture](https://user-images.githubusercontent.com/26680796/88431685-d80b6480-cdc8-11ea-95e4-c98613e0674b.png)
 2. The price changed in years
 3. Price distribution among features
