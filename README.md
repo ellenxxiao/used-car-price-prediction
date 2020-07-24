@@ -49,7 +49,7 @@ df_update['daysOnline'] = df_update['daysOnline'].dt.days+1
 ```
 ## Exploratory_Data_Analysis
 Code is <a href="https://github.com/ellenxxiao/used-car-price-prediction/blob/master/EDA.py" target="_blank">here</a>
-1. The distribution of features
+1. The distribution of features  
 -Example
 ![Capture](https://user-images.githubusercontent.com/26680796/88431685-d80b6480-cdc8-11ea-95e4-c98613e0674b.png)
 2. The price changed in years
