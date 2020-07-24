@@ -4,6 +4,7 @@
 When I was helping my best friend shopping an used car, we kept thinking and asking if the price is reasonable, if we can have a better price. It will be helpful if we have a model that can predict the price based on other used car, then we could determine if the car price reasonable in a minute. As a data science learner, I know there are machine learning algorithms that may work. 
 
 In this project, I applied machine learning algorithms to predict used car price.  
+
 [Here](https://github.com/ellenxxiao/used-car-price-prediction/blob/master/Used%20cars.ipynb) is my project.
 
 ## Table of Content
@@ -49,7 +50,7 @@ df_update['daysOnline'] = df_update['daysOnline'].dt.days+1
 ## Exploratory_Data_Analysis
 Code is <a href="https://github.com/ellenxxiao/used-car-price-prediction/blob/master/EDA.py" target="_blank">here</a>
 1. The distribution of features
-- Example
+-Example
 ![Capture](https://user-images.githubusercontent.com/26680796/88431685-d80b6480-cdc8-11ea-95e4-c98613e0674b.png)
 2. The price changed in years
 3. Price distribution among features
