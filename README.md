@@ -19,7 +19,7 @@ The data source is downloaded <a href="https://www.kaggle.com/orgesleka/used-car
 
 ## Data_Preprocessing
 <a href="https://github.com/ellenxxiao/used-car-price-prediction/blob/master/Data%20Preprocessing.py" target="_blank">Data Preprocessing</a> contains 4 steps:
-1. Remove outliers (1.5 IQR Rules) 
+1. Remove outliers (1.5 IQR Rules)  
 -Example
 ```shell
 lower_bound = df['yearOfRegistration'].quantile(.25)-(df['yearOfRegistration'].quantile(.75)-df['yearOfRegistration'].quantile(.25))*1.5
